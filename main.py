@@ -3,10 +3,7 @@ import pandas as pd
 from langchain.agents.agent_types import AgentType
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain_openai import ChatOpenAI
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
 
 # Streamlit app
 st.title("Chat with CSV files")
